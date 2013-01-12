@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	Author: ShadowGeeker
 	GitHub: https://github.com/ShadowGeeker/
 	Blog:   http://liuke.org/
@@ -45,7 +45,7 @@ int main(int argc, char **argv)
 }
 
 /*
-¸öÎ»Êı0-9³ËÒÔ×ÔÉíËùµÃ¸öÎ»ÊıµÄÖÜÆÚ£º
+ä¸ªä½æ•°0-9ä¹˜ä»¥è‡ªèº«æ‰€å¾—ä¸ªä½æ•°çš„å‘¨æœŸï¼š
 0           1
 1           1
 2 4 8 6     4
@@ -56,7 +56,7 @@ int main(int argc, char **argv)
 7 9 3 1     4
 8 4 2 6     4
 9 1         2
-Èç¹ûn%TÎª0£¬ÄÇÃ´Ó¦¸ÃÁîn=T
+å¦‚æœn%Tä¸º0ï¼Œé‚£ä¹ˆåº”è¯¥ä»¤n=T
 
 Problem : 1061 ( Rightmost Digit )     Judge Status : Accepted
 RunId : 7495078    Language : C++    Author : ShadowGeeker
