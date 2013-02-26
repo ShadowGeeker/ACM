@@ -9,6 +9,7 @@ Contents
 2. BigNums (BigDecimal or BigInteger)
 3. Greedy (Greedy Algorithm)
 4. UFS (Union Find Set)
+5. SegmentTree (Segment Tree)
 
 Blog
 ===
