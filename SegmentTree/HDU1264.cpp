@@ -75,6 +75,9 @@ void TreeUpdate(Line li, int i)
 {
     if (Y[node[i].l] == li.y1 && Y[node[i].r] == li.y2)
     {
+        // “左”边flag是1 “右”边flag是-1
+        // 其实是计算完一个矩形的面积之和，cover减去1
+        // 就相当于把这个矩形擦除掉了
         node[i].c += li.flag;
     }
     else
@@ -127,10 +130,12 @@ int main(int argc, char **argv)
                 bContinue = false;
                 break;
             }
+            // 规定每条竖边的y2比y1大
             if (y1 > y2)
             {
                 swap(y1, y2);
             }
+            // 左边的边横坐标是x1，所以x1必须是小的一个
             if (x1 > x2)
             {
                 swap(x1, x2);
