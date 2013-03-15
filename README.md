@@ -10,6 +10,7 @@ Contents
 3. Greedy (Greedy Algorithm)
 4. UFS (Union Find Set)
 5. SegmentTree (Segment Tree)
+6. TrieTree (Keyword Tree)
 
 Blog
 ===
